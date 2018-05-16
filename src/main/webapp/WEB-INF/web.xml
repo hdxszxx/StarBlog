@@ -10,7 +10,7 @@
 
   <display-name>StatBlog</display-name>
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>pages/common/main.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 
