@@ -145,7 +145,7 @@
                                         这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容
                                         这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容这就是一个测试的推荐内容
                                     </div>
-                                    <p class="auth-span">
+                                    <p class="auth-span hidden-xs">
                                         <span class="muted"><i class="glyphicon glyphicon-dashboard"></i> 2017-11-12</span>
                                         <span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 225浏览</span>
                                         <span class="muted">评论</span>
