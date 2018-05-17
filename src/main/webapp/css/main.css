@@ -5,6 +5,7 @@ body{
     height: 100%;
     background: #eaeaea;
     font-size: 16px;
+    color: #777;
 }
 html{
     margin: 0px;
@@ -13,8 +14,13 @@ html{
     height: 100%;
 }
 
+a{
+    color: #00a67c;
+    text-decoration: none;
+}
+
 .show-grid{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .show-grid [class^=col-] {
@@ -22,4 +28,127 @@ html{
     padding-bottom: 10px;
     background-color: #ffffff;
     border: 1px solid rgba(86,61,124,.2);
+}
+
+.title{
+    line-height: 45px;
+    font-weight: normal;
+    color: #a94442e8;
+    font-size: 16px;
+    height: 45px;
+    border-bottom: 1px solid #1abc9c;
+    margin: 0px 0px 15px 0px;
+}
+
+.list{
+    padding-left: 10px;
+}
+
+.list li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 5px ;
+    font-size: 14px;
+}
+
+.list li a{
+    float: right;
+    text-decoration: none;
+}
+.series{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.excerpt{
+    position: relative;
+    clear: both;
+}
+
+.excerpt header{
+    margin: 0 10px 15px 0;
+}
+.excerpt header .label{
+    top:-5px;
+    position: relative;
+}
+
+.excerpt h3{
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+    top: 1px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.excerpt a{
+    top:-2px;
+    position: relative;
+}
+
+.excerpt .focus{
+    margin: 0 20px 0 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;  /*去掉下边距*/
+    width: 25%;
+    left: 0px;
+}
+
+.excerpt .focus-right{
+    overflow: hidden;
+    position: relative;
+    height: 110px;
+    width: 70%;
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;  /*去掉下边距*/
+    right: 0px;
+}
+@media (max-width: 767px) {
+    .excerpt .focus {
+        margin: 0 10px 0 0;
+        float: none;
+        display: table;
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    .excerpt .focus-right {
+        font-size: 13px;
+        top: 10px;
+        overflow: hidden;
+        line-height: 20px;
+        margin: 0 10px 0 0;
+        float: none;
+        display: inline;
+    }
+}
+
+.auth-span{
+    float: right;
+    margin-top: 10px;
+}
+
+.excerpt .muted{
+    margin-right: 10px;
+}
+
+.muted {
+    color: #999;
 }
