@@ -16,17 +16,19 @@
     </script>
     <script type="text/javascript" src="<%=basePath%>js/Import.js"></script>
     <link type="text/css" rel="stylesheet" href="<%=basePath%>css/broadcast/index.css">
+    <link type="text/css" rel="stylesheet" href="<%=basePath%>css/tagscloud.css"/>
     <!--jquery-migrate-1.2.1高版jQuery需要加载，如果您用的是低版本jQuery可以不用调用 -->
     <script type="text/javascript" src="<%=basePath%>js/broadcast/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="<%=basePath%>js/broadcast/jquery.corner.js"></script>
     <script type="text/javascript" src="<%=basePath%>js/broadcast/jquery.roundabout.js"></script>
     <script type="text/javascript" src="<%=basePath%>js/broadcast/jquery.roundabout-shapes.js"></script>
     <script type="text/javascript" src="<%=basePath%>js/broadcast/index.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/tagscloud.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row show-grid">
-            <div class="col-md-12" style="background-color: #f3edd069;border-color: #f3edd069;">
+            <div class="col-md-12" style="background-color: #d9edf7;border-color: #d9edf7;">
                 <img src="<%=basePath%>images/new.png" height="23" width="23">
                 <span>公告这就是个测试</span>
             </div>
@@ -128,7 +130,7 @@
                                             java
                                         </a>
                                         <h3>
-                                            <a href="#" title="这就是一个测试的推荐内容" style="text-decoration: none;">
+                                            <a href="#" title="这就是一个测试的推荐内容" style="text-decoration: none;color: #00a67c;">
                                                 这就是一个测试的推荐内容
                                             </a>
                                         </h3>
@@ -162,21 +164,82 @@
                             推荐内容
                             </div>
                         </div>
+                        <div class="page">
+                            <button class="page_up" page="1" route="<%=basePath%>#"><b>←</b></button>
+                            <button class="page_lower" page="1" route="<%=basePath%>#"><b>→</b></button>
+                        </div>
                     </div>
                     <div class="col-md-4" style="background-color:#eaeaea;border-color: #eaeaea;">
                         <div class="row show-grid">
                             <div class="col-md-12">
-                                分类
+                                <h2 class="title">分类</h2>
+                                <ul class="nav nav-pills">
+                                    <li role="presentation"><a href="#">Home</a></li>
+                                    <li role="presentation"><a href="#">Profile</a></li>
+                                    <li role="presentation"><a href="#">Messages</a></li>
+                                    <li role="presentation" ><a href="#">Home</a></li>
+                                    <li role="presentation"><a href="#">Profile</a></li>
+                                    <li role="presentation"><a href="#">Messages</a></li>
+                                    <li role="presentation" ><a href="#">Home</a></li>
+                                    <li role="presentation"><a href="#">Profile</a></li>
+                                    <li role="presentation"><a href="#">Messages</a></li>
+                                    <li role="presentation"><a href="#">Home</a></li>
+                                    <li role="presentation"><a href="#">Profile</a></li>
+                                    <li role="presentation"><a href="#">Messages</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="row show-grid">
-                            <div class="col-md-12">
-                                标签云
+                            <div class="col-md-12" style="background:#fbfbfb;font-size:14px;">
+                                <div class="tagscloud">
+                                    <a href="#/Article.aspx?kid=1" title="星级评分">星级评分</a>
+                                    <a href="#/Article.aspx?kid=2" title="层特效">层特效</a>
+                                    <a href="#/Article.aspx?kid=3" title="关键字">关键字</a>
+                                    <a href="#/Article.aspx?kid=4" title="拖拽">拖拽</a>
+                                    <a href="#/Article.aspx?kid=5" title="分页插件">分页插件</a>
+                                    <a href="#/Article.aspx?kid=6" title="时间插件">时间插件</a>
+                                    <a href="#/Article.aspx?kid=7" title="弹出层">弹出层</a>
+                                    <a href="#/Article.aspx?kid=8" title="数据统计">数据统计</a>
+                                    <a href="#/Article.aspx?kid=9" title="HTML5">HTML5</a>
+                                    <a href="#/Article.aspx?kid=10" title="置顶特效">置顶特效</a>
+                                    <a href="#/Article.aspx?kid=11" title="选项卡">选项卡</a>
+                                    <a href="#/Article.aspx?kid=12" title="导航菜单">导航菜单</a>
+                                    <a href="#/Article.aspx?kid=13" title="原创">原创</a>
+                                    <a href="#/Article.aspx?kid=14" title="动画插件">动画插件</a>
+                                    <a href="#/Article.aspx?kid=15" title="实用特效">实用特效</a>
+                                    <a href="#/Article.aspx?kid=16" title="table插件">table插件</a>
+                                    <a href="#/Article.aspx?kid=17" title="文字特效">文字特效</a>
+                                    <a href="#/Article.aspx?kid=18" title="图片特效">图片特效</a>
+                                    <a href="#/Article.aspx?kid=19" title="在线客服">在线客服</a>
+                                    <a href="#/Article.aspx?kid=20" title="瀑布流">瀑布流</a>
+                                    <a href="#/Article.aspx?kid=21" title="网友蘑菇">网友蘑菇</a>
+                                </div>
                             </div>
                         </div>
                         <div class="row show-grid">
-                            <div class="col-md-12">
-                                猜你喜欢
+                            <div class="col-md-12" style="margin-bottom: 5px;">
+                                <h2 class="title">猜你喜欢</h2>
+                                <div class="excerpt">
+                                    <header>
+                                        <a class="label label-danger" href="#">
+                                            java
+                                        </a>
+                                        <h4>
+                                            <a href="#" title="这就是一个测试的推荐内容" style="text-decoration: none;color: #00a67c;">
+                                                这就是一个测试的推荐内容
+                                            </a>
+                                        </h4>
+                                    </header>
+                                    <div class="focus">
+                                        <a href="#">
+                                            <img src="<%=basePath%>images/01.png" alt="这就是一个测试的推荐内容" class="img-thumbnail"/>
+                                        </a>
+                                    </div>
+                                    <p class="auth-span hidden-xs" style="font-size: 14px;">
+                                        <span class="muted"><i class="glyphicon glyphicon-dashboard"></i> 2017-11-12</span>
+                                        <span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 225浏览</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

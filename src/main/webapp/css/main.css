@@ -38,6 +38,7 @@ a{
     height: 45px;
     border-bottom: 1px solid #1abc9c;
     margin: 0px 0px 15px 0px;
+    display: block;
 }
 
 .list{
@@ -78,9 +79,8 @@ a{
     position: relative;
 }
 
-.excerpt h3{
+.excerpt h1,h2,h3,h4,h5,h6{
     display: inline;
-    font-size: 20px;
     margin: 0;
     font-weight: normal;
     position: relative;
@@ -142,7 +142,7 @@ a{
 
 .auth-span{
     float: right;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .excerpt .muted{
@@ -151,4 +151,37 @@ a{
 
 .muted {
     color: #999;
+}
+
+.page{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.page button{
+    padding: 0px 10px 0px 10px;
+    width: 144px;
+    height: 53px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 29px;
+    font-weight:bold;
+    outline:none;
+    color: #000000;
+    background-color: #999999;
+}
+
+.page b{
+    pointer-events:none;
+}
+
+
+
+.page_left{
+    text-align: left;
+}
+
+.page_right{
+    text-align: right;
 }

@@ -1,6 +1,7 @@
 toJs('js/jquery-3.3.1.min.js');
 toJs('js/bootstrap.min.js');
 toJs('js/jquery.dotdotdot.js');
+toJs('js/main.js');
 
 
 toCss('css/bootstrap.css');
