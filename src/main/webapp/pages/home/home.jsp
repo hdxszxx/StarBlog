@@ -137,7 +137,7 @@
                                     </header>
                                     <div class="focus">
                                         <a href="#">
-                                            <img src="<%=basePath%>images/01.png" alt="这就是一个测试的推荐内容" class="img-thumbnail"/>
+                                            <img src="<%=basePath%>images/01.png" alt="这就是一个测试的推荐内容" class="img-responsive"/>
                                         </a>
                                     </div>
                                     <div class="focus-right">
@@ -232,10 +232,10 @@
                                     </header>
                                     <div class="focus">
                                         <a href="#">
-                                            <img src="<%=basePath%>images/01.png" alt="这就是一个测试的推荐内容" class="img-thumbnail"/>
+                                            <img src="<%=basePath%>images/01.png" alt="这就是一个测试的推荐内容" class="img-responsive"/>
                                         </a>
                                     </div>
-                                    <p class="auth-span hidden-xs" style="font-size: 14px;">
+                                    <p class="auth-like hidden-xs">
                                         <span class="muted"><i class="glyphicon glyphicon-dashboard"></i> 2017-11-12</span>
                                         <span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 225浏览</span>
                                     </p>
@@ -247,7 +247,6 @@
             </div>
         </div>
     </div>
-
 <script type="text/javascript">
     $(function(){
         //将超出的转成。。。

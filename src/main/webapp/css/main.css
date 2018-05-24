@@ -142,7 +142,19 @@ a{
 
 .auth-span{
     float: right;
-    margin-top: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    line-height: 13px;
+}
+
+.auth-like{
+    position: relative;
+    display: inline;
+    font-size: 13px;
+    margin-bottom: 0px;
+    line-height: 13px;
+    top: 10px;
 }
 
 .excerpt .muted{
@@ -184,4 +196,14 @@ a{
 
 .page_right{
     text-align: right;
+}
+
+a img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+a img:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
 }
